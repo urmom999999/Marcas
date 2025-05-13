@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Tareas</title>
+    <link rel="stylesheet" href="ListaTareasCSS.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+<div class="e">
+    <div class="main">
+        <div class="recuadro">
+            <div class="titulo">
+                <div class="titulo-texto">LISTA DE TAREAS</div>
+            </div>
+            <div class="menu">
+                <div class="agregar-tarea">
+                    <input type="text" id="AñadirTarea" placeholder="Añade la nueva tarea aqui">
+                    <button id="AgregarTareaBtn">Agregar Tarea</button>
+                </div>
+                <div class="VerTareas">
+                    <h3>Tareas Pendientes</h3>
+                    <button id="OrdenarTareas">Ordenar tareas</button>
+                    <ul id="listaTareas"></ul>
+                </div>
+                <div class="VerTareasCompletadas">
+                    <h3>Tareas Completadas</h3>
+                    <ul id="listaCompletadas"></ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="ListaTareasJS.js"></script>
+</body>
+</html>
